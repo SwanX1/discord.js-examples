@@ -53,4 +53,4 @@ The license basically allows you to do anything with it, while maintaining copyr
  2. Redistribute it
  3. Do almost anything else with it
 
-The license can be found in [LICENSE.md](SwanX1/discord.js-examples/ping/LICENSE.md) file in [ping](SwanX1/discord.js-examples/ping/) folder of this repository.
+The license can be found in [LICENSE.md](LICENSE.md) file in this folder of this repository.
