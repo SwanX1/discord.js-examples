@@ -16,13 +16,15 @@ This is just an example bot for learning purposes. You can do anything with this
 
 ![screenshot of bot](https://i.imgur.com/bu0wpzx.png)
 
+Code improvements and PRs are encouraged.
+
 ## Installation
 
 Prerequisites:
  - Node.js
  - NPM (bundled with the former)
 
-If you have Git installed, you can use `git clone https://github.com/SwanX1/discord-examples.git` to clone this whole repository.
+If you have Git installed, you can use `git clone https://github.com/SwanX1/discord.js-examples.git` to clone this whole repository.
 If you do not, you can also download this repository as a *.zip* file.
 
 Open your terminal of choice, locate this directory, and run `npm i` to install necessarry dependencies.
@@ -51,4 +53,4 @@ The license basically allows you to do anything with it, while maintaining copyr
  2. Redistribute it
  3. Do almost anything else with it
 
-The license can be found in [LICENSE.md](SwanX1/discord-examples/ping/LICENSE.md) file in [ping](SwanX1/discord-examples/ping/) folder of this repository.
+The license can be found in [LICENSE.md](SwanX1/discord.js-examples/ping/LICENSE.md) file in [ping](SwanX1/discord.js-examples/ping/) folder of this repository.
