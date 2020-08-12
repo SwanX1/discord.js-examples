@@ -1,14 +1,14 @@
 <h1 align="center">
-	Discord Bot Example - <code>ping</code>
+	⭐️ Discord Bot Example - <code>ping</code> ⭐️ 
 </h1>
 
-<p align="center">
+<h3 align="center">
   <a href="#overview">Overview</a>
   •
   <a href="#installation">Installation</a>
   •
   <a href="#license">License</a>
-</p>
+</h3>
 
 ## Overview
 
@@ -24,22 +24,28 @@ Prerequisites:
  - Node.js
  - NPM (bundled with the former)
 
-If you have Git installed, you can use `git clone https://github.com/SwanX1/discord.js-examples.git` to clone this whole repository.
-If you do not, you can also download this repository as a *.zip* file.
+ 1. Clone the repository
+  
+  ```
+  git clone https://github.com/SwanX1/discord.js-examples.git
+  ```
 
-Open your terminal of choice, locate this directory, and run `npm i` to install necessarry dependencies.
+  Note: if you do not have Git installed, you can also [download this repository](https://github.com/SwanX1/discord.js-examples/archive/master.zip) as a *.zip* file.
 
-Create a discord application at the [Discord Developer Portal](https://discord.com/developers/applications).
+ 2. Install dependencies
+  ```
+  npm i
+  ```
 
-In the sidebar, under *settings*, click the *Bot* tab. Once you're in the *Bot* tab, click *Add Bot* and create a bot account!
 
-Under `Build-a-Bot > Token`, click copy to copy the token.
+ 3. Paste the token in the `config.json` file:
+  ```
+  "token": "YOUR_TOKEN_HERE"
+  ```
 
-Paste the token in the `config.json` file, ```"token": "here"```
+  You can create the `config.json` file from it's corresponding template: `config.template.json`
 
-You can create the `config.json` file from it's corresponding template: `config.template.json`
-
-Go back to your terminal and type `npm start`
+To start the bot, run `npm start` or `node .`
 
 That's it, You're done!
 To exit the application, press `ctrl + c`
@@ -49,7 +55,10 @@ Pro Tip: You can also change the prefix of the bot
 ## License
 
 Released under a custom license.
-The license basically allows you to do anything with it, while maintaining copyright law. No legal action will be taken if you
+
+The license basically allows you to do anything with it, while maintaining copyright law.
+
+No legal action will be taken if you:
  1. Claim a modified version of this code as your own
  2. Redistribute it
  3. Do almost anything else with it
