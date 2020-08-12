@@ -14,7 +14,7 @@
 
 This is just an example bot for learning purposes. You can do anything with this code as dictated by the [license](#license).
 
-![screenshot of bot](https://i.imgur.com/bu0wpzx.png)
+<img alt="screenshot of bot" src="https://i.imgur.com/bu0wpzx.png" width="250px">
 
 Code improvements and PRs are encouraged.
 
