@@ -36,6 +36,7 @@ In the sidebar, under *settings*, click the *Bot* tab. Once you're in the *Bot* 
 Under `Build-a-Bot > Token`, click copy to copy the token.
 
 Paste the token in the `config.json` file, ```"token": "here"```
+
 You can create the `config.json` file from it's corresponding template: `config.template.json`
 
 Go back to your terminal and type `npm start`
