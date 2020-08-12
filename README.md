@@ -34,7 +34,7 @@ To get a Discord bot token:
 Currently available examples:
 
  - [x] [Ping Command](ping)
- - [ ] [COVID-19 Stats](covid)
+ - [ ] COVID-19 Stats
 
 <h2 id="license">License</h2>
 
