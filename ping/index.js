@@ -13,15 +13,7 @@ client.on('message', message => {
       new MessageEmbed()
       .setTitle('Pong!')
       .setDescription(`Bot ping is ${client.ws.ping}`)
-      .setColor(
-        (() => {
-          if (client.ws.ping > 500) {
-            return '#E74C3C';
-          } else {
-            return '#2ECC71';
-          }
-        })()
-      )
+      .setColor(client.ws.ping < 500 ? '#2ECC71' : '#E74C3C')
     );
   }
 });
